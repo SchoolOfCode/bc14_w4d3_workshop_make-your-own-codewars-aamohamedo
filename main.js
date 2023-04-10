@@ -13,13 +13,6 @@ or returns "Sorry, You're a bad shopper!" if you didnt make it to a minimum of 4
 
 
 export function howMuchTime(timeAvailable){
-    const timeInEachShop = 15;
-    const numberOfShops = Math.floor(timeAvailable / timeInEachShop); 
 
-    if (numberOfShops >= 4) {
-       return "Well Done, You're a good shopper! "
-    } else {
-        return "Sorry, you're a bad shopper!"
-    }
 }
 
